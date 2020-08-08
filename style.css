@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Ubuntu", sans-serif;
+}
+
+[role="dialog"] {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+}
+
+[role="dialog"] h2 {
+	background: #ccc;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 10px;
+	margin: 0;
+}
+
+[role="dialog"] p {
+	margin: 0;
+	padding: 10px;
+	font-size: 12px;
+}
