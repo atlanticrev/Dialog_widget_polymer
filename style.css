@@ -40,3 +40,7 @@ body {
 	padding: 10px;
 	font-size: 12px;
 }
+
+[role="dialog"].modal {
+	position: absolute;
+}

@@ -77,6 +77,11 @@ class Dialog extends Voltron {
         super(options);
     }
 
+    init (options) {
+        super.init(options);
+        this.el.classList.add('modal');
+    }
+
     render () {}
 
     show () {}
@@ -87,3 +92,5 @@ class Dialog extends Voltron {
 
 Dialog.prototype.events = {};
 Dialog.prototype.defaults = {};
+
+const dialog = new Dialog({el: document.querySelector('[role="dialog"]')});
